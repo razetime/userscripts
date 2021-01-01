@@ -4,7 +4,7 @@
 // @grant    GM_xmlhttpRequest
 // @grant    GM_listValues
 // @match    https://chat.stackexchange.com/*
-// @require  https://gitlab.com/n9n/apl/-/raw/master/apl.js
+// @require  https://raw.githubusercontent.com/abrudz/ngn-apl/master/apl.js
 // ==/UserScript==
 
 // thanks to @cvzi for making it work correctly!
