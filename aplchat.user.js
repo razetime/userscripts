@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     APL chat
-// @version  2.1
+// @version  2.2
 // @grant    GM_xmlhttpRequest
 // @grant    GM_listValues
 // @match    https://chat.stackexchange.com/*
