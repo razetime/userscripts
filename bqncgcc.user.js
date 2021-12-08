@@ -26,7 +26,8 @@
         if(fun.includes("←")){
             fun = fun.split("←")[1].trim();
             perm.focus()
-        result.innerText = `# [BQN](https://mlochbaum.github.io/BQN/), ${fun.length} bytes<sup>[SBCS](https://github.com/mlochbaum/BQN/blob/master/commentary/sbcs.bqn)</sup>
+            result.classList.remove("err");
+            result.innerText = `# [BQN](https://mlochbaum.github.io/BQN/), ${fun.length} bytes<sup>[SBCS](https://github.com/mlochbaum/BQN/blob/master/commentary/sbcs.bqn)</sup>
 \`\`\`none
 ${fun}
 \`\`\`
