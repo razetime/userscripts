@@ -33,8 +33,9 @@
 ${fun}
 \`\`\`
 
-[Run online!](${doc.perm.href})
-`;
+[Run online!](${doc.perm.href})`;
+            navigator.clipboard.writeText(result.innerText);
+            result.innerText = "Copied to clipboard.\n" + result.innerText;
         }
         else {
             result.classList.add("err");
