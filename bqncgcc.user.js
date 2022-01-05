@@ -24,7 +24,8 @@
     CGCC.addEventListener("click", e=>{
         let fun = code.value.split("\n")[0]
         if(fun.includes("←")){
-            fun = fun.split("←")[1].trim();
+            let ind = fun.indexOf("←");
+            fun = fun.slice(ind+1).trim();
             perm.focus()
             result.classList.remove("err");
             result.innerText = `# [BQN](https://mlochbaum.github.io/BQN/), ${Array.from(fun).length} bytes<sup>[SBCS](https://github.com/mlochbaum/BQN/blob/master/commentary/sbcs.bqn)</sup>
